@@ -1,78 +1,124 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annalese | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
-}
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h1>About Me</h1>
+    <div class="card-grid">
+      <div class="card">
+        <p>
+          Hey there! I'm <strong>Annalese</strong>, some people know me as <strong>BQ</strong>—a versed Comms/Marketing, 
+          Events, and Operations professional. On occasions I've dabbled in OTC Finance & Startup advisory.
+        </p>
+        <p>
+          I’ve spent nearly a decade helping projects craft brands and build meaningful connections with communities by 
+          combining strong storytelling with technical fluency. I’m a creative strategist at heart, with over 13 years 
+          of leadership and managerial experience.
+        </p>
+        <p>
+          If you're looking for a leader who is a fast-paced visionary ready to execute—let’s talk. ✨
+        </p>
+      </div>
+    </div>
+  </section>
 
-/* Navigation */
-header {
-  background: #222;
-  padding: 1rem;
-}
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <h1>Experience</h1>
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
+    <!-- Key Skills Grid -->
+    <h2>Key Skills & Expertise</h2>
+    <div class="card-grid">
+      <div class="card">Bitcoin & Web3 Marketing</div>
+      <div class="card">Community Building & Engagement</div>
+      <div class="card">Event Strategy & Production</div>
+      <div class="card">Products & GTM Strategy</div>
+      <div class="card">Strategic Partnerships</div>
+      <div class="card">Public Speaking & Content Creation</div>
+      <div class="card">Creative Direction & Branding</div>
+      <div class="card">Technical Communication</div>
+      <div class="card">Data-Driven Campaigns</div>
+      <div class="card">Leadership & Team Management</div>
+    </div>
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
+    <!-- Professional Experience Grid -->
+    <h2>Professional Experience</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Site Operations Director</h3>
+        <p><strong>Bitcoin Ben’s Crypto Club Las Vegas</strong> | Las Vegas, NV</p>
+        <p>Led operations, sales strategy, leadership, and HNW client relations for a coworking/event space focused on Bitcoin education.</p>
+      </div>
 
-/* Sections */
-.section {
-  padding: 2rem;
-  max-width: 1000px;
-  margin: auto;
-}
+      <div class="card">
+        <h3>Chief Marketing Officer</h3>
+        <p><strong>Nervos Network</strong> | Remote – US & Asia</p>
+        <p>Spearheaded brand strategy, community engagement, GTM strategy, and global blockchain events.</p>
+      </div>
 
-.section h1 {
-  margin-bottom: 1rem;
-  text-align: center;
-}
+      <div class="card">
+        <h3>Event Coordinator & Ops Lead</h3>
+        <p><strong>Freelance</strong> | Global</p>
+        <p>Planned conferences, pop-up cities, and events for Binance, Chainlink, and Art Basel. Led ops and spoke on blockchain topics.</p>
+      </div>
 
-/* Card Grid */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
+      <div class="card">
+        <h3>Chief Creative Officer</h3>
+        <p><strong>BitBasel</strong> | Miami, FL</p>
+        <p>Directed NFT strategy, branding, and events with Miami’s mayor and global blockchain leaders during the NFT boom.</p>
+      </div>
 
-.card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  padding: 1rem;
-  transition: transform 0.2s ease-in-out;
-}
+      <div class="card">
+        <h3>Marketing & Strategy Lead</h3>
+        <p><strong>Bits and Tokens</strong> | Miami, FL</p>
+        <p>Co-founded a blockchain media company producing content, events, and marketing campaigns for crypto projects.</p>
+      </div>
+    </div>
+  </section>
 
-.card:hover {
-  transform: translateY(-5px);
-}
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <h1>Education & Certifications</h1>
+    <div class="card-grid">
+      <div class="card">
+        <ul>
+          <li><strong>BBA, Minor in Marketing</strong> – Florida International University</li>
+          <li>Advanced Marketing Certification Courses (2020)</li>
+          <li>Blockchain Business Certification – UC Berkeley Online</li>
+          <li>Intermediate Solidity & Rust Knowledge</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-.card h3 {
-  margin-bottom: 0.5rem;
-}
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h1>Contact</h1>
+    <div class="card-grid">
+      <div class="card">
+        <p>Email: <a href="mailto:Annaleseq@duck.com">Annaleseq@duck.com</a></p>
+        <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+      </div>
+    </div>
+  </section>
 
-a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
+</body>
+</html>
